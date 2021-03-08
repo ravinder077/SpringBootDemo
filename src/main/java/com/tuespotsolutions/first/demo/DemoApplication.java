@@ -25,4 +25,10 @@ class HelloController
     {
         return "Hello Tuespot";
     }
+
+    @RequestMapping("/ravinder")
+    String ravinder()
+    {
+        return "hello ravinder";
+    }
 }
